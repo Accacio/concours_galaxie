@@ -1,4 +1,4 @@
-image: ruby:3.1
+image: python:3
 
 before_script:
   - pip3 install bs4 urllib3
