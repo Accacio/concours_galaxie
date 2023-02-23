@@ -1,0 +1,15 @@
+image: ruby:3.1
+
+before_script:
+  - mkdir public
+
+stages:
+  - build
+
+pages:
+  stage: build
+  script:
+    - python3 filter_postes >> public/index.html
+  artifacts:
+    paths:
+      - public
