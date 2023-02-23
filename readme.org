@@ -2,7 +2,9 @@
 
 Try to find all «postes» for a given set of «sections»
 
-
+* Dependencies
+- bs4
+- urllib3
 
 * Usage
 #+begin_src bash :dir ./ :results output

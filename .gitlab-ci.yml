@@ -1,6 +1,7 @@
 image: ruby:3.1
 
 before_script:
+  - pip3 install bs4 urllib3
   - mkdir public
 
 stages:
