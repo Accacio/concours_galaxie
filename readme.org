@@ -6,7 +6,6 @@ Try to find all «postes» for a given set of «sections»
 
 * Usage
 #+begin_src bash :dir ./ :results output
-pwd
 chmod +x filter_postes
 ./filter_postes >> postes.html
 #+end_src
