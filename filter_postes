@@ -4,7 +4,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 
 # TODO(accacio): use stdinput
-section_choose = set([61,27,63])
+section_choose = set([61,27,63,26,60])
 corps_choose = 'MCF'
 
 # TODO(accacio): add prepublie
