@@ -10,7 +10,8 @@ stages:
 pages:
   stage: build
   script:
-    - python3 filter_postes >> public/index.html
+    - python3 filter_postes >> public/accacio.html
+    - python3 filter_postes 62,63 >> public/eve.html
   artifacts:
     paths:
       - public
