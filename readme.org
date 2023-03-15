@@ -21,11 +21,15 @@ chmod +x filter_postes
 
 from urllib import request
 from bs4 import BeautifulSoup
+import sys
 #+end_src
 
 #+begin_src python :tangle filter_postes
 # TODO(accacio): use stdinput
-section_choose = set([61])
+if(len(sys.argv)>1):
+    section_choose = set([int(x) for x in str(sys.argv[1]).split(',')])
+else:
+    section_choose = set([61,27,63,26,60])
 corps_choose = 'MCF'
 #+end_src
 
