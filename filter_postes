@@ -4,7 +4,6 @@ from urllib import request
 from bs4 import BeautifulSoup
 import sys
 
-# TODO(accacio): use stdinput
 if(len(sys.argv)>1):
     section_choose = set([int(x) for x in str(sys.argv[1]).split(',')])
 else:
