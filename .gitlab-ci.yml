@@ -12,7 +12,7 @@ pages:
   script:
     - python3 filter_postes >> public/accacio.html
     - python3 filter_postes 62,63 >> public/eve.html
-    - python3 filter_postes 60 >> public/sarah.html
+    - python3 filter_postes 60,27 >> public/sarah.html
   artifacts:
     paths:
       - public
